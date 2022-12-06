@@ -42,7 +42,7 @@ function TaskCategory(props) {
 
   const handleDelete = (e, task_id) => {
     // handleShow();
-    alert(task_id + " " + props.p_id + " " + confirm);
+//     alert(task_id + " " + props.p_id + " " + confirm);
     // console.log(get);
 
     const filtered = get.filter((obj) => {
