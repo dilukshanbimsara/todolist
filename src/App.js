@@ -53,6 +53,7 @@ function App() {
       <BrowserRouter>
       <Navbar user={isUser} />
         <Routes>
+          <Route path="/" element={isUser? <AddProject owner={owner}/>:<Login/>} />
           <Route path="/home" element={ isUser? <AddProject owner={owner}/>:<Login/>} />
           <Route path="/registration" element={<Registration/>} />
           <Route path='/project/:id' element={<AddTask />} />
