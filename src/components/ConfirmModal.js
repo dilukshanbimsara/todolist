@@ -1,10 +1,10 @@
 import { useContext, useEffect, useState } from "react";
 import Modal from "react-bootstrap/Modal";
 import axios from "axios";
-import  DeleteContext  from "./AddProject";
+// import  DeleteContext  from "./AddProject";
 
 function ConfirmModal(props) {
-const {remove, setRemove} = useContext(DeleteContext)
+// const {remove, setRemove} = useContext(DeleteContext)
 
   const [color, setColor] = useState("");
   const handleOk = () => {
